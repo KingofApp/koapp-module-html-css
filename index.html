@@ -1,0 +1,7 @@
+<div class="module htmlcss" ng-controller="htmlcssController">
+  <style koaStyles code="styleCode" setClass="htmlcss"></style>
+  <koa-card ng-if="htmlcss.modulescope.display == 'card'">
+    <div ng-init="loadded()" ng-bind-html="code"></div>
+  </koa-card>
+  <div ng-if="htmlcss.modulescope.display != 'card'" ng-bind-html="code"></div>
+</div>

@@ -1,0 +1,131 @@
+{
+    "name": "Html + CSS",
+    "name-lang": {
+        "es-ES": "Html + CSS",
+        "en-US": "Html + CSS",
+        "fr-FR": "Html + CSS"
+    },
+    "identifier": "htmlcss",
+    "description": {
+        "es-ES": "Explora las posibilidades de personalización con este módulo, entrando tu propio código html y css. Para que tengas una experiencia más fluida, hemos habilitado un editor wysiwyg.",
+        "en-US": "Explore the possibilities of personalization with this module by entering your own html and css code. For a more seamless experience, we have enabled a wysiwyg editor."
+    },
+    "documentation": {
+        "es-ES": "modules/htmlcss/documentation/es_ES.md",
+        "en-US": "modules/htmlcss/documentation/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "Crea tu propio código HTML y CSS. ¡Ahora con editor wysiwyg!",
+        "en-US": "Create your own html and css code. Now with a wysiwyg editor!"
+    },
+    "icon": "code",
+    "type": "A",
+    "version": "1.0.0",
+    "author": "King of App",
+    "category": [
+        "others"
+    ],
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/htmlcss/index.html",
+    "files": [
+        "modules/htmlcss/clearCssDirective.js",
+        "modules/htmlcss/controller.js"
+    ],
+    "scope": {
+        "value": "",
+        "styleCode": "",
+        "scriptCode": "",
+        "display": "",
+        "useTranslate": false
+    },
+    "scope-lang": {
+        "es-ES": {
+            "value-lang": ""
+        },
+        "en-US": {
+            "value-lang": ""
+        },
+        "fr-FR": {
+            "value-lang": ""
+        }
+    },
+    "config": [
+        {
+            "type": "wysiwyg",
+            "key": "value",
+            "templateOptions": {
+                "label": "Contenido",
+                "required": false,
+                "description": "Código html"
+            }
+        },
+        {
+            "key": "styleCode",
+            "type": "textarea",
+            "templateOptions": {
+                "label": "Css editor",
+                "rows": 5,
+                "grow": true
+            }
+        },
+        {
+            "type": "checkbox",
+            "key": "useTranslate",
+            "templateOptions": {
+                "description": "Use Translate",
+                "label": "Use translate"
+            }
+        },
+        {
+            "key": "display",
+            "type": "select",
+            "templateOptions": {
+                "label": "Display type",
+                "options": [
+                    {
+                        "name": "Default",
+                        "value": "none"
+                    },
+                    {
+                        "name": "Card",
+                        "value": "card"
+                    }
+                ]
+            }
+        }
+    ],
+    "config-lang": [
+        {
+            "type": "wysiwyg",
+            "key": "value-lang",
+            "templateOptions": {
+                "label": "Contenido",
+                "required": false,
+                "description": "Código html"
+            },
+            "hideExpression": "!model.useTranslate"
+        }
+    ],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/htmlcss/images/html_list.png",
+        "screenshots": [
+            "modules/htmlcss/images/htmle_screenshots01.png",
+            "modules/htmlcss/images/htmle_screenshots02.png"
+        ],
+        "popover": "modules/htmlcss/images/html_popover.png",
+        "banner": "modules/htmlcss/images/html_popover.png",
+        "logo": "modules/htmlcss/images/html_icon.png"
+    }
+}
