@@ -2,8 +2,7 @@
     "name": "Html + CSS",
     "name-lang": {
         "es-ES": "Html + CSS",
-        "en-US": "Html + CSS",
-        "fr-FR": "Html + CSS"
+        "en-US": "Html + CSS"
     },
     "identifier": "htmlcss",
     "description": {
@@ -50,9 +49,6 @@
             "value-lang": ""
         },
         "en-US": {
-            "value-lang": ""
-        },
-        "fr-FR": {
             "value-lang": ""
         }
     },
