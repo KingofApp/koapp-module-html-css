@@ -100,8 +100,8 @@
     ],
     "config-lang": [
         {
-            "key": "styleCode",
-            "type": "valueLang",
+            "key": "valueLang",
+            "type": "textarea",
             "templateOptions": {
                 "label": "Contenido",
                 "rows": 70,
