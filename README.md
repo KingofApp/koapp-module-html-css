@@ -1,3 +1,3 @@
 # koapp-module-html-css
 
-version: v1.0.1
+version: v1.0.2

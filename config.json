@@ -19,7 +19,7 @@
     },
     "icon": "code",
     "type": "A",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "King of App",
     "category": [
         "others"
@@ -46,10 +46,11 @@
     },
     "scope-lang": {
         "es-ES": {
-            "value-lang": ""
+            "valueLang": ""
         },
         "en-US": {
-            "value-lang": ""
+            "valueLang": ""
+            
         }
     },
     "config": [
@@ -99,14 +100,13 @@
     ],
     "config-lang": [
         {
-            "type": "wysiwyg",
-            "key": "value-lang",
+            "key": "styleCode",
+            "type": "valueLang",
             "templateOptions": {
                 "label": "Contenido",
-                "required": false,
+                "rows": 70,
                 "description": "Código html"
-            },
-            "hideExpression": "!model.useTranslate"
+            }
         }
     ],
     "showOn": {

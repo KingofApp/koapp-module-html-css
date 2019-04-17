@@ -11,9 +11,10 @@
     //Register upper level modules
     structureService.registerModule($location, $scope, 'htmlcss', $translate.use());
     var config = $scope.htmlcss.modulescope;
-
+    var lang = $translate.use().replace('_', '-');
+    
     if (config.useTranslate) {
-      $scope.code = $scope.htmlcss.modulescope["value-lang"];
+      $scope.code = $scope.htmlcss.modulescopeLang[lang].valueLang;
     } else {
       $scope.code = $scope.htmlcss.modulescope.value;
     }
